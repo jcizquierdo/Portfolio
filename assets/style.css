@@ -47,6 +47,10 @@ header nav ul li a {
     background-position: center;
  
 }    
+
+.recent-pic {
+    max-width: 250px;
+}
 .info {
     background: black;
 }
@@ -107,7 +111,14 @@ header nav ul li a {
     margin: 20px;
     padding: 25px;
     flex: 2 80%;
-    justify-content: space-between;
+}
+.contact-info a{
+    text-decoration: none;
+    color: grey;
+    padding: 8px
 }
 
+footer {
+    text-align: right;
+}
 /*Contact Me*/
