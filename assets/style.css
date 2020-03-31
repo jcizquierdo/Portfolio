@@ -25,6 +25,10 @@ header {
 header nav {
     margin: 7px 0;
 }
+header a {
+    text-decoration: none;
+    color: white;   
+}
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -46,11 +50,64 @@ header nav ul li a {
 .info {
     background: black;
 }
+
+/*About Me*/
 .about-me {
     display: flex;
-    margin: 20px;
-    
+    margin: 30px;
+}
+.about-me-title {
+    border-right: 3px solid;
+    border-color: grey;
+    padding: 14px 0px 14px 27px;
+    text-align: center;
+    margin: 12px;
+    width: 50%;
+    flex: 1 20%;
 }
 .about-info {
-    padding: 12px
+    padding: 10px;
+    text-align: center;
+    flex: 2 80%;
 }
+
+/*Work*/
+
+.work {
+    display: flex;
+    margin: 30px;
+}
+.work-title {
+    border-right: 3px solid;
+    border-color: grey;
+    padding: 14px 14px 14px 55px;
+    text-align: center;
+    margin: 12px;
+}
+.service-grid-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    margin: 30px;
+}
+
+.contact-title {
+    border-right: 3px solid;
+    border-color: grey;
+    padding: 14px 14px 14px 55px;
+    text-align: center;
+    margin: 12px;
+}
+.contact-info {
+    text-align: center;
+    margin: 20px;
+    padding: 25px;
+    flex: 2 80%;
+    justify-content: space-between;
+}
+
+/*Contact Me*/
